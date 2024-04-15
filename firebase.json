@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/car-sales/browser",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

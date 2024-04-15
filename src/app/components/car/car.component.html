@@ -1,0 +1,12 @@
+<div class="shadow-sm card mb-3">
+    <!-- <img src="{{carData?.imageURL}}" [style.width.px]='carImageWidth' class="card-img-top"/> -->
+    <img [src]="carData.imageURL != '' ? carData.imageURL : placeholderImageUrl" class="card-img-top" />
+    <div class="card-body">
+        <h5 class="card-title">{{carData?.make}} - {{carData?.model}}</h5>
+        <h6>{{carData?.year}}</h6>
+        <hr>
+        <div class="text-center">
+            <button class="btn btn-danger" (click)="deleteCar(carData._id)">Delete</button>
+        </div>
+    </div>
+</div>
