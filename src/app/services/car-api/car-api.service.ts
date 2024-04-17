@@ -10,7 +10,7 @@ import { ICar } from '../../interfaces/car';
 export class CarApiService {
 
   // Properties
-  private _siteURL = "https://3.253.102.37/cars"
+  private _siteURL = "http://3.252.82.196:5050/Cars"
 
   // Constructor
   constructor(private _http: HttpClient) { }
